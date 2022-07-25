@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
   },
   "repository": {
     "type": "git"
@@ -17,5 +18,8 @@
     "jest": "26.0.1",
     "ts-jest": "26.0.0",
     "typescript": "3.9.3"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
   }
 }
